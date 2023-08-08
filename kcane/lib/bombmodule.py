@@ -6,3 +6,6 @@ class BombModule:
 
     def attempt_solve(self) -> Answer:
         raise NotImplementedError
+
+    def setup(self):
+        raise NotImplementedError
